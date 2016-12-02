@@ -1,0 +1,114 @@
+body{
+	margin: 20px 20px;
+	background-color: white;
+	text-align: center;
+	}
+	
+div.c-container{
+	background-color:  #3498db;
+	margin: 20px 20px;
+	border-style: dashed;
+	border-color: white;
+	  text-align: center; 
+
+}
+
+div.container{
+	background-color:  #3cb0fd;
+	margin: 20px 20px;
+     border: 5px solid #1f628d;
+ 	  
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+}
+
+div.infosx{
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	text-align: center;
+	margin: 20px 20px;
+	border-right: 5px solid #1f628d;
+	
+	 flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 70px; 	
+}
+
+div.infodx{
+	
+	text-align: center;
+	margin: 20px 20px;
+		
+	 flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 500px; 
+	}
+	
+span{
+	position:relative;
+	text-transform: uppercase;
+	font-size:25px;
+	font-weight:bold;
+	color:#1f628d;
+	display:inline;
+	}
+	
+h1{
+	position:relative;
+	text-transform: uppercase;
+	font-weight:bold;
+	color:#1f628d;
+	
+	}
+	
+	h1.a{
+	position:relative;
+	text-transform: uppercase;
+	font-weight:bold;
+	color:white;
+	
+	}
+	
+	
+	
+hr{
+	border-top: 2px solid #1f628d;
+	 margin-left: auto;
+    margin-right: auto;
+     display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+	
+}
+	
+p{	
+	position:relative;
+	text-transform: capitalize;
+	font-weight:bold;
+	font-size:20px;
+	color:white;
+	display:inline;
+	}
+
+	
+@media screen and (max-width:800px) {
+	
+
+div.container{
+	display: block;
+	
+}
+
+div.infosx{
+	border-right:none;
+	border-bottom: 5px solid #1f628d;
+
+}
+  
+
+}
+
+

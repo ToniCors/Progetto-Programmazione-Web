@@ -1,0 +1,74 @@
+
+div.tabella{
+	 
+	 text-align: center;
+		}
+
+
+ 
+tr td{
+
+padding: 10px 10px 10px 10px;
+width : 50%
+}
+
+h2{
+	padding-right : 5%;
+	padding-left : 5%;
+	text-align : center;
+}
+
+h5{
+	text-align : right;
+	padding-right : 5%;
+	
+}
+
+article{
+	width:250px; 
+	height: 75px;
+	padding-right : 5%;
+	padding-left : 5%;
+	
+}
+
+
+td#cibo{
+border-right: 2px dotted gray;
+
+}
+
+td{
+	border-bottom: 2px dotted gray;
+}
+
+div#img{
+	background-color : white;
+    float : left;
+	
+}
+
+div#txt{
+	
+	background-color : white;	
+	float : right;
+	
+}
+
+table#foods{
+	
+ border: 6px groove; 
+ margin-right: 8%;
+ margin-top :2%;
+ background-color:white;
+ width: 85%;
+ margin:0px;
+ }
+ 
+ @media screen and (max-width:650px) {
+  div.tabella{
+	 overflow-x: scroll; 
+	 background-color: yellow;
+		}
+}
+ 

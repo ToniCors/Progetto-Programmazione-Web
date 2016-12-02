@@ -1,0 +1,107 @@
+div.tableconteiner{
+	text-align: center;
+	
+} 
+
+table {
+	font: 400% Comic sans MS;
+	 border-collapse: collapse; 
+ margin-right: 8%;
+ margin-top :2%;
+  margin-right: 20%;
+ background-color:white;
+ width: 85%;
+
+	text-align: center;
+   
+}
+
+tr, td, th{
+	border : 5px solid black;
+	
+}
+
+@media screen and (max-width:650px) {
+	
+	table {
+	font: 300% Comic sans MS;
+	 margin-top :2%;
+     margin-right: 20%;
+    
+     width: 85%;
+	text-align: center;}
+   
+}
+
+@media screen and (max-width:450px) {
+	
+	table {
+	font: 200% Comic sans MS;
+	 margin-top :2%;
+     margin-right: 20%;
+    
+     width: 85%;
+	text-align: center;}
+   
+}
+
+@media screen and (max-width:350px) {
+	
+	table {
+	font: 100% Comic sans MS;
+	 margin-top :2%;
+     margin-right: 20%;
+    
+     width: 85%;
+	text-align: center;
+   
+}
+	
+	
+	
+}
+
+
+/*per la pagina about*/
+
+div.map{
+	text-align: center;
+	
+}
+
+iframe.mapabout {
+	width:70%; 
+	height:500px;
+	border:5px solid white;
+	margin: 20px 20px 20px 20px;
+}
+
+div.contatti{
+	text-align: center;
+	background-color: white;
+}
+
+div.int{
+	text-align: center;
+	background-color: white;
+}
+
+div.contatti span{
+	margin: 20px 20px 20px 20px;
+	font: 30px Comic sans MS;
+	color:blck;
+}
+
+div.int span{
+	margin: 20px 20px 20px 20px;
+	font: 30px Comic sans MS;
+	color:blck;
+}
+
+ 
+ @media screen and (max-width:650px) {
+  div.tabella{
+	 overflow-x: scroll; 
+	 background-color: yellow;
+		}
+}

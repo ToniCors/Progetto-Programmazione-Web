@@ -1,0 +1,48 @@
+
+footer {
+	background : black;
+	clear: both;
+	 display: -webkit-flex; 
+    display: flex;
+    text-align: center;
+	
+}
+
+
+footer div {
+    -webkit-flex: 1;  
+    -ms-flex: 1; 
+    flex: 1;
+}
+
+div.link{
+	 display: inline-block;
+  }
+
+div.browser{
+	 display: inline-block;
+  
+}
+
+div.pay{
+	display: inline-block;  
+	
+}
+
+footer h4{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 10px gold ;
+	font-family: Comic sans MS;
+}
+
+div.box {
+  display: inline-block;
+  
+}
+
+img.imgfooter{
+	
+	margin: 10px 15px 10px 20px;
+}
+

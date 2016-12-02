@@ -1,0 +1,75 @@
+div.areariservata{
+	padding:20px 20px 20px 20px;	
+	
+}
+
+div.datipersonali{
+	border : 3px solid black;
+	background-color: white;
+	padding:20px 20px 20px 20px;
+	-webkit-border-radius: 10px;
+      border-radius: 10px;
+      margin-top:10px;     
+}
+
+div.acquisti{
+	border : 3px solid black;
+	background-color: white;
+	
+	padding:20px 20px 20px 20px;
+	-webkit-border-radius: 10px;
+      border-radius: 10px;
+      margin-top:10px;
+}
+
+label.dati, label.acquisti{
+	background-color: white;
+	border : 3px solid black;
+	-webkit-border-radius: 10px;
+      border-radius: 10px;
+     padding:10px 10px 10px 10px;
+     
+}
+
+label.dati:hover, label.acquisti:hover{
+	background-color: rgba(255,255, 255, 0.7);
+     
+}
+
+p{
+  font: Comic sans MS;
+  font-size: 3.0vh;
+}
+
+div.tabella{
+	 overflow-x: scroll; 
+	 overflow-y: scroll; 
+	 
+	
+}
+
+table{
+	border : 3px solid black;
+	border-collapse :inherit;
+	 font: Comic sans MS;	 
+	 text-align: center;	
+	 max-width: 1150px; 
+	 
+	 
+	   
+}
+
+tr td,tr th{
+	padding:10px 10px 10px 10px;
+	font-size: 3.0vh;
+	
+	}
+tr:nth-child(even){
+	background-color: rgba(0,0, 0, 0.2);;
+	
+	 
+}
+
+
+	
+

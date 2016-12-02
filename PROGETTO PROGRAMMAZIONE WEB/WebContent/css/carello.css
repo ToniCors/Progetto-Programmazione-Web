@@ -1,0 +1,288 @@
+div.body{
+	
+	height: 100%;
+	width: 100%;
+}
+
+div.carrello{	
+	padding:20px 20px 20px 20px;		
+	display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+
+div.carrellosx{
+	background-color: rgba(240,240,240, 0.7);
+	margin:20px 20px 20px 20px;	
+	text-align: center;
+	
+	flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 500px; 	
+}
+
+div.posti{
+	background-color: white;
+	text-align: center;
+	margin:0px 20px 0px 20px;
+	padding: 20px 20px 20px 20px;
+	-webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  display: none;
+	
+}
+
+div.carrellodx{
+	background-color: rgba(240,240,240, 0.7);
+	margin:20px 20px 20px 20px;	
+	flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px; 
+}
+
+div.conferma{
+	
+	margin:20px 20px 20px 20px;
+	text-align: center;
+}
+
+div.riepilogo{
+	-webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+	background-color: white;
+	margin:20px 20px 20px 20px;
+}
+
+div.infoproiezione{
+	margin:8px 8px;
+}
+
+.bottonePosto{
+	
+	border-color:white;
+	background:LawnGreen ;
+	border-radius: 200px 200px 40px 40px;
+-moz-border-radius: 200px 200px 40px 40px;
+-webkit-border-radius: 200px 200px 40px 40px;
+}
+
+.bottonePostoOcc{
+	
+	border-color:white;
+	background:red;
+	border-radius: 200px 200px 40px 40px;
+-moz-border-radius: 200px 200px 40px 40px;
+-webkit-border-radius: 200px 200px 40px 40px;
+}
+
+.bottonePostoLib{
+	
+	border-color:white;
+	background:LawnGreen ;
+	border-radius: 200px 200px 40px 40px;
+-moz-border-radius: 200px 200px 40px 40px;
+-webkit-border-radius: 200px 200px 40px 40px;
+}
+
+.bottonePostoClik{
+	
+	border-color:white;
+	background:yellow ;
+	border-radius: 200px 200px 40px 40px;
+-moz-border-radius: 200px 200px 40px 40px;
+-webkit-border-radius: 200px 200px 40px 40px;
+}
+
+span.biglietto{
+	
+	font: 25px Comic sans MS;
+}
+
+div.divaltreinfo{
+	
+	display:none;
+}
+
+span.altreinfo{
+	color:#3cb0fd;
+	
+	font-weight:bold;
+	
+	}
+	
+.freccette{
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    background-color: white;
+    border-color: black;
+    color:black;
+    padding: 5px 5px;
+   
+}
+
+.freccette:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+p.totale{
+	background-color:#3498db;
+	padding: 7px 7px;
+	
+	text-align: center;
+	font: 30px Comic sans MS;
+	 -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+   border: solid #1f628d 3px;
+   color:white;
+  margin-bottom:20px;
+}
+
+p.carrello{
+	text-align: center;
+	font: 30px Comic sans MS;
+	font-weight: bold;
+}
+
+.annulla{
+	color:white;
+	font-weight: bold;
+	border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+     border: solid #d10000;
+     background-color: red;
+	margin-left: 5%;
+}
+
+.annulla:hover {
+  background: rgba(255,255,255, 0.1);;
+  text-decoration: none;
+  color:black;
+}
+
+.bottoneConferma{
+	margin:20px 20px  20px  20px ;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  text-shadow: 2px 2px 6px #000000;
+  -webkit-box-shadow: 0px 4px 14px #666666;
+  -moz-box-shadow: 0px 4px 14px #666666;
+  box-shadow: 0px 4px 14px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 30px;
+  padding: 8px 20px 10px 20px;
+  border: solid #1f628d 3px;
+  text-decoration: none;
+  display:none;
+}
+
+.bottoneConferma:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+label{
+	color: white;
+}
+
+
+.bottonePosto{
+	height: 40px;
+	width: 40px;
+	
+}
+
+div.legenda{
+	 
+	background-color: white;
+	padding: 10px 10px;
+}
+
+h2.selDis{
+	background-color: white;
+	padding: 10px 10px;
+}
+
+
+#annulla1{
+	display:none
+}
+
+#annulla2{
+	display:none
+}
+
+
+#annulla3{
+	display:none
+}
+
+
+#annulla4{
+	display:none
+}
+
+#annulla5{
+	display:none
+}
+
+div.pagamento{
+	text-align: center;
+}
+
+p.pagamentop{
+	text-align: center;
+	font: 15px Comic sans MS;
+	font-weight: bold;
+}
+
+.mailhidden{
+	display: none;
+	
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+
+div.carrello{
+	display:block;
+}
+
+.bottonePosto{
+	height: 20px;
+	width: 20px;
+	font-size: 7px;
+}
+
+label{
+	display: none;
+}
+img{
+	height: 70%;
+	width: 80%;
+}
+
+}
+
+

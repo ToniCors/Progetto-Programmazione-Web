@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type ="text/css">
+	@import url("css/menu.css");	
+	</style>
+</head>
+<body>
+<header>
+ 
+<ul class="topnav">
+ 
+  <li class ="home"><a href="home.jsp"><img src ="css/img/mf/home.ico" alt="HOME" height ="45"  width="45"></a></li>
+  <li  class ="film"><a href="Films.jsp">FILM</a></li>
+  <li   class ="csoon"><a href="Cooming.jsp">COOMING SOON</a></li>
+  <li  class ="contatti"><a href="Contatti.jsp">ABOUT</a></li>
+  <li   class ="lprezzi"><a href="Listino.jsp">LISTINO PREZZI</a></li>
+  <li  class ="foods"><a href="Food.jsp">FOODS</a></li>
+   <li class ="admin"><a href="HomeAdmin.jsp"><img src ="css/img/Adm.png" alt="HOME" height ="45"  width="45"></a></li>
+ 
+   <li  class ="login"><a href="clienteLogout"><img class ="img" src ="css/img/mf/logout1.png" alt="l" height ="45"  width="45" >  LOGOUT</a></li>
+  
+  
+  <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="responsiveMenu()"><img src ="css/img/mf/menu.ico" height ="45"   alt="m"></a>
+  </li>
+</ul>
+
+
+<script>
+function responsiveMenu() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+</header>
+
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+
+
+div.progday {
+	margin-top: 20px;
+	clear: both;
+	display: -webkit-flex;
+	display: flex;
+}
+
+div.progday div {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	border: 2px solid #000;
+	background-color: white;
+	border-bottom: none;
+}
+
+div.progday div.g1 {
+	margin-left: 20px;
+	border-radius: 30px 0px 0px 0px;
+	-moz-border-radius: 30px 0px 0px 0px;
+	-webkit-border-radius: 30px 0px 0px 0px;
+}
+
+div.progday div.g7 {
+	margin-right: 20px;
+	border-radius: 0px 30px 0px 0px;
+	-moz-border-radius: 0px 30px 0px 0px;
+	-webkit-border-radius: 0px 30px 0px 0px;
+}
+
+div.prog {
+	border: 2px solid black;
+	background-color: rgba(240, 240, 240, 0.7);
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+
+div.prog div {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border: 2px solid black;
+	margin: 10px 20px 10px 20px;
+	background-color: white;
+}
+
+div.imgfilm {
+	
+}
+
+div.bottoniora div {
+	display: inline-block;
+}
+
+div.bottoniora {
+	-webkit-border-radius: 27;
+	-moz-border-radius: 27;
+	border-radius: 27px;
+	border: 2px solid black;
+}
+
+.bottoneOra {
+	margin: 20px 20px 20px 20px;
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 27;
+	-moz-border-radius: 27;
+	border-radius: 27px;
+	text-shadow: 2px 2px 6px #000000;
+	-webkit-box-shadow: 0px 4px 14px #666666;
+	-moz-box-shadow: 0px 4px 14px #666666;
+	box-shadow: 0px 4px 14px #666666;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 30px;
+	padding: 8px 20px 10px 20px;
+	border: solid #1f628d 3px;
+	text-decoration: none;
+}
+
+.bottoneOra:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+div.noimg div.infofilm {
+	display: block;
+	background-color: #3498db;
+	padding: 15px 15px 0px 15px;
+	color: white;
+	font-weight: bold;
+	-webkit-border-radius: 27;
+	-moz-border-radius: 27;
+	border-radius: 27px;
+	border: solid #1f628d 3px;
+}
+
+div.noimg {
+	-webkit-border-radius: 27;
+	-moz-border-radius: 27;
+	border-radius: 27px;
+	border-color: white;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+
+span.titolo {
+	
+	font-size: 40px;
+	font-family: Comic sans MS;
+	max-width: 20px;
+	position: relative;
+}
+
+div#giorno {
+	background: #3498db;
+}
+
+div#giorno:hover {
+	background: #3cb0fd;
+}
+
+img.Dicon {
+	display: none;
+}
+
+div.indirizzi1 {
+
+	text-align: center;
+	border: 2px solid;
+	border-radius: 25px;
+	display: inline-block;
+	width: 50%;
+	border: 5px solid #1f628d;
+	background: #3498db;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-shadow: 0 0 10px Silver;
+	font: 22px Comic sans MS;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-left: 24%;
+}
+
+div.indirizzi2 {
+	text-align: center;
+	border: 2px solid;
+	border-radius: 25px;
+}
+div.indirizzi3 {
+	text-align: center;
+	border: 2px solid;
+	border-radius: 25px;
+}
+
+li.Inseriscifilm a:hover {
+	text-shadow: 0 0 5px Red;
+	border-bottom: solid 6px gold;
+}
+div.indirizzi2:hover{
+	text-shadow: 0 0 5px blue;
+	border-bottom: solid 6px gold;
+}
+div.indirizzi3:hover{
+	text-shadow: 0 0 5px blue;
+	border-bottom: solid 6px #00FF00;
+}
+
+li.Proiezione a:hover {
+	text-shadow: 0 0 5px blue;
+	border-bottom: solid 6px gold;
+}
+
+
+h2.WA{
+	
+	color:#FFFFFF;
+}
+
+
+
+@media screen and (max-width:950px) {
+	div.prog div {
+		display: block;
+	}
+	
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+	label.day{
+		font-size: 15px;
+		background-color:green;
+	
+}
+	
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+ 	
+	span.titolo {
+	font-size: 23px;
+	
+}
+
+
+
+p.trailer{
+	font-size: 12px;
+}
+
+
+label.day{
+		font-size: 8px;
+		background-color: yellow;
+	
+}
+
+}
+
+
+
+
+
+
+

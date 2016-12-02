@@ -1,0 +1,146 @@
+
+body {
+	margin :0;
+    background: url('img/mf/bg.jpg') no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+div.body{
+	margin :0;	
+	background-color: rgba(0,0, 0, 0.5);
+	padding:20px 20px 20px 20px;
+	min-height: 1000px;
+	
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+ 
+
+}
+
+ul.topnav li.home {
+	
+	margin-right:70px;
+	}
+
+ul.topnav li {
+	float: left;
+	}
+	
+ul.topnav li.login {
+	float: right;
+	}
+
+ul.topnav li a {
+  border-bottom : solid 6px black;
+  display: inline-block; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  color: #e6e6e6 ;
+  text-shadow: 0 0 10px Silver ;
+  font: 20px Comic sans MS;
+ font-weight: bold;
+ font-size :15pt;
+}
+
+
+
+
+ul.topnav li.icon {
+	display: none;
+	}
+
+	
+
+li.home a:hover{	
+	text-shadow: 0 0 5px gold;
+	border-bottom : solid 6px gold;
+}
+
+li.film a:hover{
+	text-shadow: 0 0 7px red;
+	border-bottom : solid  6px red;
+}
+
+li.csoon a:hover{
+	text-shadow: 0 0 5px Aqua ;
+	border-bottom : solid 6px Aqua  ;
+}
+
+li.lprezzi a:hover{
+	text-shadow: 0 0 5px Lime;
+	border-bottom : solid 6px Lime  ;
+}
+
+li.foods a:hover{
+	text-shadow: 0 0 5px Magenta;
+	border-bottom : solid 6px Magenta   ;
+}
+
+li.contatti a:hover{
+	text-shadow: 0 0 5px DodgerBlue ;
+	border-bottom : solid 6px DodgerBlue   ;
+}
+
+li.login a:hover{
+	text-shadow: 0 0 5px Sienna  ;
+	border-bottom : solid 6px Sienna    ;
+	
+}
+li.admin a:hover{	
+	text-shadow: 0 0 5px light blue;
+	border-bottom : solid 6px white;
+}
+li.areaR a:hover{
+	text-shadow: 0 0 5px white ;
+	border-bottom : solid 6px white ;
+	
+}
+
+
+@media screen and (max-width:1050px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:1050px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+#formcontainer {
+	width: 40%;
+}
+
+
+fieldset input {
+	width: 45%;
+}
+
+
